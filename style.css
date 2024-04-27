@@ -1,0 +1,277 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.nav-link{
+    font-family: 'Ubuntu' sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #957554;
+}
+.navigation{
+    display: flex;
+    gap: 50px;
+}
+.nav-link:hover{
+    color:black
+}
+.first-section{
+    background-image: url(assets/main.png);
+    height: 100vh;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 0 80px;
+}
+.first-section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 50px;
+}
+.title{
+    font-family: 'Ubuntu' sans-serif;
+    font-style: normal;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 92px;
+    color: #FFFFFF;
+}
+.description, 
+.button{
+    font-family: 'Ubuntu' sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.button{
+    text-decoration: none;
+    background-color: #DFAA5B;
+    padding: 25px 133px;
+    border-radius: 10px;
+}
+.secondary-title{
+    font-family: 'Ubuntu' sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 52px;
+    color: #957554;
+    text-align: center;
+    margin-bottom: 47px;
+}
+.rooms-card{
+    width: 630px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.rooms-card > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cards-content{
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    bottom: 57px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    align-items: center;
+}
+.card-title{
+    font-family: 'Ubuntu' sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 46px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.button.button-small{
+    padding: 24px 52px 24px 56px;
+}
+.overlay{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 7.48%, #000000 100%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.rooms-gallery{
+    display: flex;
+    gap: 60px 50px;
+    flex-wrap: wrap;
+}
+.second-section{
+    margin-bottom: 55px;
+}
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.third-section{
+    margin-bottom: 122px;
+}
+.footer-flex{
+    display: flex;
+    flex-direction: row;
+    padding: 51px 0 151px 0;
+    background-color: #111111;
+    justify-content: space-between;
+}
+.footer-flex img{
+    width: 154px;
+    height: 126px;
+    margin: 0 0 0 55px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+}
+.details{
+    font-family: 'Ubuntu' sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    gap: 10px;
+}
+.contact-info{
+    margin: 0 123px 0 0;
+}
+.details a{
+    color: #FFFFFF;
+}
+.contact-info a{
+    font-family: 'Ubuntu' sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.contact-info h3{
+    font-family: 'Ubuntu' sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.first-news{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 107px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+.news-title{
+    margin-top: 69px;
+    margin-bottom: 68px;
+}
+.first-news img{
+    width: 630px;
+    height: 500px;
+    margin-right: 60px;
+}
+.rooms-info{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+} 
+ .rooms-info-text{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 44px;
+}
+.rooms-info-text h2{
+    font-family: 'Ubuntu' sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 46px;
+    color: #957554;
+}
+.rooms-info-text p{
+    font-family: 'Ubuntu' sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 46px;
+    color: #000000;
+}
+.rooms-info-right{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.rooms-info-left{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 50px;
+}
+
+.rooms-info-left h2{
+    align-items: center;
+}
+
+.gallery-photos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 54px;
+    margin-right: 66px;
+}
+.gallery-section{
+    margin-bottom: 104px;
+}
+.first img{
+    width: 792px;
+    height: 500px;
+}
+.second img{
+    width: 495px;
+    height: 500px;
+}
+.third img{
+    width: 495px;
+    height: 500px;
+}
+.forth img{
+    
+    width: 792px;
+    height: 500px;
+}
